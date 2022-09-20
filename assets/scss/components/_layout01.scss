@@ -2,8 +2,8 @@
     padding-top: 20px;
     .info-area {
         padding-left: 16px;
-        .rank-area{display: none;
-        &.active{display: block;}}
+        .rank-area{
+        &.active{}}
     .rank-list {
         .rank-item {
             display: flex;
@@ -36,6 +36,7 @@
                     }
                 }
                 .rank-info {
+                    position: relative;
                     display: table;
                     height: 18px;
                     margin-top: 9px;

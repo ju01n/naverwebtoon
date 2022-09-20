@@ -1,11 +1,12 @@
 .layout04 {
-    padding-left: 16px;
     .sort-order {
         padding-top: 12px;
         height: 46px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        padding-left: 16px;
         .order-box {
             font-size: 12px;
             font-weight: 500;
@@ -15,6 +16,7 @@
 
     }
     .order-list {
+        padding-left: 16px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;

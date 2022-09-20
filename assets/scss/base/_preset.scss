@@ -5,8 +5,8 @@ body{
 }
 
 .content {
-    line-height: 1.25em;
     padding-top: 83px;
+    line-height: 1.25em;
     min-height: 800px;
     & hr {
         display: block;
@@ -24,4 +24,8 @@ body{
     overflow: hidden;
     clip: rect(0 0 0 0);
     margin: -1px;
+}
+
+.hr02{
+    
 }

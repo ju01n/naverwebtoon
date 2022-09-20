@@ -1,13 +1,19 @@
 .layout02 {
     padding: 20px 0 17px;
+    .season {}
     .series-list {
         box-sizing: border-box;
         overflow: hidden;
-        width: 100%;
         padding: 12px 0 0 16px;
+        display: flex;
+        overflow-x: auto;
+        @include noScrollbar;
+        a {
+            display: inline-block;
+            height: 100%;
+        }
     }
     .series-item {
-        display: table-cell;
         padding-right: 8px;
         vertical-align: top;
         .thumb {
@@ -26,6 +32,7 @@
                 width: auto;
                 height: 100%;
                 margin: auto;
+                object-fit: cover;
             }
         }
         .content-title {
@@ -35,7 +42,7 @@
             width: 120px;
             display: block;
             padding-top: 7px;
-            font-size: 14px;    
+            font-size: 14px;
         }
         .writer {
             margin-top: 1px;

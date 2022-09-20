@@ -16,3 +16,12 @@
     -webkit-line-clamp: $line;
     display: -webkit-box;
 }
+
+
+@mixin noScrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }
+}

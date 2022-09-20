@@ -7,7 +7,7 @@
     padding: 0 16px;
 }
 
-.division {
+.hr02 {
     margin: 20px 0;
     border-top: 5px solid #eee;
     border-bottom: 5px solid #eee;
@@ -97,4 +97,15 @@
     .best-sort & {
         top: 8px;
     }
+}
+
+.up{
+    content:'';
+    display: inline-block;
+    width: 22px;
+    height: 12px;
+    background-position: -30px -85px;
+    position: absolute;
+    top: 2px;
+    right: -10px;
 }

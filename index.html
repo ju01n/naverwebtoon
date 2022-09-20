@@ -7,6 +7,8 @@
         <title>네이버 웹툰</title>
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="shortcut icon" href="./assets/images/webtoon_favicon_32x32.ico" type="image/x icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  
         
     </head>
     <body>
@@ -28,24 +30,25 @@
                     <a href="" class="link-mypage"><span class="blind">마이페이지</span></a>
                 </div>
             </div>
-            <div class="header-bottom">
+            <nav class="header-bottom">
                 <ul class="menu-list">
                     <li class="menu-item active"><a href="./index.html">홈</a></li>
                     <li class="menu-item"><a href="./weekday.html">요일별</a></li>
                     <li class="menu-item"><a href="./finish.html">완결작</a></li>
                     <li class="menu-item"><a href="/best.html">베스트도전</a></li>
                 </ul>
-            </div>
+            </nav>
         </header>
         <!--///header영역 -->
 
+        
         <!-- main 시작-->
         <main class="content">
             <hr>
             <!-- sc-banner01 영역-->
             <section class="sc-banner banner01">
                 <a href="">
-                    <span class="bg-left"></span>
+                    <span class="bg-left" style="background-color:#00f "></span> <!-- 만약 배너이미지가 데이터였다면 이런식으로 꾸며줌 -->
                     <img src="./assets/images/ad-banner.jpg" alt="이상형 연하남과의 소란스러운 캠퍼스 로맨스! 어떤 소란 보러가기">
                     <span class="bg-right"></span>
                 </a>
@@ -55,229 +58,22 @@
             <!-- sc-sort 레이아웃 1 -->
             <section class="sc-sort layout01">
                 <h2 class="part">연령별·성별 실시간 랭킹</h2>
-                <ul class="sort-list">
-                    <li><a href="#1" class="sort-item active">10대여자</a></li>
-                    <li><a href="#2" class="sort-item">10대남자</a></li>
-                    <li><a href="#3" class="sort-item">20대여자</a></li>
-                    <li><a href="#4" class="sort-item">20대남자</a></li>
-                    <li><a href="#5" class="sort-item">30대여자</a></li>
-                    <li><a href="#6" class="sort-item">30대남자</a></li>
-                </ul>
-                <div class="info-area">
-                    <h3><span class="blind">10대여자</span></h3>
-
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide rank-area active" id="1">
-                                    <ul class="rank-list">
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank01.jpg" alt="">
-                                                <div class="rank-num"><em>1</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank02.jpg" alt="">
-                                                <div class="rank-num"><em>2</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank03.jpg" alt="">
-                                                <div class="rank-num"><em>3</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank04.jpg" alt="">
-                                                <div class="rank-num"><em>4</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank05.jpg" alt="">
-                                                <div class="rank-num"><em>5</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="swiper-slide rank-area" id="2">
-                                    <ul class="rank-list">
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank01.jpg" alt="">
-                                                <div class="rank-num"><em>1</em></div>
-                                                <div class="rank-info"><strong class="title">10대남</strong><span class="writer">홍끼zzzzz</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank02.jpg" alt="">
-                                                <div class="rank-num"><em>2</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank03.jpg" alt="">
-                                                <div class="rank-num"><em>3</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank04.jpg" alt="">
-                                                <div class="rank-num"><em>4</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank05.jpg" alt="">
-                                                <div class="rank-num"><em>5</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="swiper-slide rank-area" id="3">
-                                    <ul class="rank-list">
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank01.jpg" alt="">
-                                                <div class="rank-num"><em>1</em></div>
-                                                <div class="rank-info"><strong class="title">20대여자탭</strong><span class="writer">홍끼zzzzz</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank02.jpg" alt="">
-                                                <div class="rank-num"><em>2</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank03.jpg" alt="">
-                                                <div class="rank-num"><em>3</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank04.jpg" alt="">
-                                                <div class="rank-num"><em>4</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank05.jpg" alt="">
-                                                <div class="rank-num"><em>5</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="swiper-slide rank-area" id="4">
-                                    <ul class="rank-list">
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank01.jpg" alt="">
-                                                <div class="rank-num"><em>1</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생4444</strong><span class="writer">홍끼zzzzz</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank02.jpg" alt="">
-                                                <div class="rank-num"><em>2</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank03.jpg" alt="">
-                                                <div class="rank-num"><em>3</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank04.jpg" alt="">
-                                                <div class="rank-num"><em>4</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank05.jpg" alt="">
-                                                <div class="rank-num"><em>5</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="swiper-slide rank-area" id="5">
-                                    <ul class="rank-list">
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank01.jpg" alt="">
-                                                <div class="rank-num"><em>1</em></div>
-                                                <div class="rank-info"><strong class="title">30대여탭</strong><span class="writer">홍끼zzzzz</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank02.jpg" alt="">
-                                                <div class="rank-num"><em>2</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank03.jpg" alt="">
-                                                <div class="rank-num"><em>3</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank04.jpg" alt="">
-                                                <div class="rank-num"><em>4</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank05.jpg" alt="">
-                                                <div class="rank-num"><em>5</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="swiper-slide rank-area" id="6">
-                                    <ul class="rank-list">
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank01.jpg" alt="">
-                                                <div class="rank-num"><em>1</em></div>
-                                                <div class="rank-info"><strong class="title">30대남자탭</strong><span class="writer">홍끼zzzzz</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank02.jpg" alt="">
-                                                <div class="rank-num"><em>2</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank03.jpg" alt="">
-                                                <div class="rank-num"><em>3</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank04.jpg" alt="">
-                                                <div class="rank-num"><em>4</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                        <li class="rank-item">
-                                            <a href=""><img src="./assets/images/sc-rank05.jpg" alt="">
-                                                <div class="rank-num"><em>5</em></div>
-                                                <div class="rank-info"><strong class="title">먹는인생</strong><span class="writer">홍끼</span></div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="swiper rank">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper info-area">
+                        <div class="swiper-slide rank-area" id="tab1"><ul class="rank-list agegender"></ul></div>
+                        <div class="swiper-slide rank-area" id="tab2"><ul class="rank-list agegender"></ul></div>
+                        <div class="swiper-slide rank-area" id="tab3"><ul class="rank-list agegender"></ul></div>
+                        <div class="swiper-slide rank-area" id="tab4"><ul class="rank-list agegender"></ul></div>
+                        <div class="swiper-slide rank-area" id="tab5"><ul class="rank-list agegender"></ul></div>
+                        <div class="swiper-slide rank-area" id="tab6"><ul class="rank-list agegender"></ul></div>
                     </div>
+                </div>
+                      
             </section>
             <!-- ////// sc-sort 레이아웃 1 끝 -->
 
-            <div class="division"></div>
-
+            <hr class="hr02">
             <!-- sc-rising 레이아웃1 -->
             <section class="sc-rising layout01">
                 <div class="wrap">
@@ -292,47 +88,47 @@
                     <div class="swiper-wrapper toon-list">
                         <ul class="swiper-slide rank-list">
                             <li class="rank-item">
-                                <a href=""><img src="./assets/images/sc-rank01.jpg" alt="">
+                                <a href=""><img src="./assets/images/top-rank01.jpg" alt="">
                                     <div class="rank-num"><em>1</em></div>
                                         <div class="rank-info">
-                                            <strong class="title">먹는인생</strong>
-                                            <span class="writer">홍끼</span>
+                                            <strong class="title">독립일기</strong>
+                                            <span class="writer">시즌2 97화 혼밥의 달인</span>
                                         </div>
                                     </a>
                                 </li>
                             <li class="rank-item">
-                                <a href=""><img src="./assets/images/sc-rank02.jpg" alt="">
+                                <a href=""><img src="./assets/images/top-rank02.jpg" alt="">
                                     <div class="rank-num"><em>2</em></div>
                                         <div class="rank-info">
-                                            <strong class="title">먹는인생</strong>
-                                            <span class="writer">홍끼</span>
+                                            <strong class="title">현실퀘스트</strong>
+                                            <span class="writer">46화</span>
                                         </div>
                                     </a>
                                 </li>
                             <li class="rank-item">
-                                <a href=""><img src="./assets/images/sc-rank03.jpg" alt="">
+                                <a href=""><img src="./assets/images/top-rank03.jpg" alt="">
                                     <div class="rank-num"><em>3</em></div>
                                         <div class="rank-info">
-                                            <strong class="title">먹는인생</strong>
-                                            <span class="writer">홍끼</span>
+                                            <strong class="title">나노마신</strong>
+                                            <span class="writer">116. 제43장. 전력을 늘려라 (3)</span>
                                         </div>
                                     </a>
                                 </li>
                             <li class="rank-item">
-                                <a href=""><img src="./assets/images/sc-rank04.jpg" alt="">
+                                <a href=""><img src="./assets/images/top-rank04.jpg" alt="">
                                     <div class="rank-num"><em>4</em></div>
                                         <div class="rank-info">
-                                            <strong class="title">먹는인생</strong>
-                                            <span class="writer">홍끼</span>
+                                            <strong class="title">이상한 변호사 우영우</strong>
+                                            <span class="writer">7화:흘러내린 웨딩드레스 (1)</span>
                                         </div>
                                     </a>
                                 </li>
                             <li class="rank-item">
-                                <a href=""><img src="./assets/images/sc-rank05.jpg" alt="">
+                                <a href=""><img src="./assets/images/top-rank05.jpg" alt="">
                                     <div class="rank-num"><em>5</em></div>
                                         <div class="rank-info">
-                                            <strong class="title">먹는인생</strong>
-                                            <span class="writer">홍끼</span>
+                                            <strong class="title">노답소녀</strong>
+                                            <span class="writer">72화</span>
                                         </div>
                                     </a>
                                 </li>
@@ -446,26 +242,17 @@
             <!-- sc-season layout02영역 -->
             <section class="sc-season layout02">
                 <h2 class="part">여름의 끝자락을 잡고...★</h2>
-                <ul class="series-list">
-                    <li class="series-item">
-                        <a href=""><div class="thumb"><img src="./assets/images/sc-season.jpg" alt="키미앤조이"></div><em class="content-title">키미앤조이</em><span class="writer">치자</span></a>
-                    </li>
-                    <li class="series-item">
-                        <a href=""><div class="thumb"><img src="./assets/images/sc-season.jpg" alt="키미앤조이"></div><em class="content-title">키미앤조이</em><span class="writer">치자</span></a>
-                    </li>
-                    <li class="series-item">
-                        <a href=""><div class="thumb"><img src="./assets/images/sc-season.jpg" alt="키미앤조이"></div><em class="content-title">키미앤조이</em><span class="writer">치자</span></a>
-                    </li>
-                    <li class="series-item">
-                        <a href=""><div class="thumb"><img src="./assets/images/sc-season.jpg" alt="키미앤조이"></div><em class="content-title">키미앤조이</em><span class="writer">치자</span></a>
-                    </li>
-                    <li class="series-item">
-                        <a href=""><div class="thumb"><img src="./assets/images/sc-season.jpg" alt="키미앤조이"></div><em class="content-title">키미앤조이</em><span class="writer">치자</span></a>
-                    </li>
-                    <li class="series-item">
-                        <a href=""><div class="thumb"><img src="./assets/images/sc-season.jpg" alt="키미앤조이"></div><em class="content-title">키미앤조이</em><span class="writer">치자</span></a>
-                    </li>
-                </ul>
+                <div class=" season">
+                    <ul class=" series-list">
+                        <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-season.jpg" alt="키미앤조이"></div><em class="content-title">키미앤조이</em><span class="writer">치자</span></a></li>
+                        <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-season02.jpg" alt="세기말 풋사과 보습학원"></div><em class="content-title">세기말 풋사과 보습학원</em><span class="writer">순끼</span></a></li>
+                        <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-season03.jpg" alt="여름의 너에게"></div><em class="content-title">여름의 너에게</em><span class="writer">라라뮤</span></a></li>
+                        <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-season04.jpg" alt="고백 취소도 되나?"></div><em class="content-title">고백 취소도 되나?</em><span class="writer">신매</span></a></li>
+                        <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-season05.jpg" alt="여름여자 하보이"></div><em class="content-title">여름여자 하보이</em><span class="writer">석영</span></a></li>
+                        <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-season06.jpg" alt="같은 학교 친구"></div><em class="content-title">같은 학교 친구</em><span class="writer">유유</span></a></li>
+                        
+                    </ul>
+                </div>
             </section>
             <!--///// sc-season 영역 끝-->
 
@@ -483,30 +270,13 @@
             <section class="sc-serial layout02">
                 <h2 class="part">정주행하기 딱 좋은 3-50화 연재작</h2>
                 <ul class="series-list">
-                    <li class="series-item">
-                        <a href="">
-                            <div class="thumb"><img src="./assets/images/sc-season.jpg" alt=""></div>
-                                <em class="content-title">키미앤조이</em><span class="writer">치자</span>
-                        </a>
-                    </li>
-                    <li class="series-item">
-                        <a href="">
-                            <div class="thumb"><img src="./assets/images/sc-season.jpg" alt=""></div>
-                                <em class="content-title">키미앤조이</em><span class="writer">치자</span>
-                        </a>
-                    </li>
-                    <li class="series-item">
-                        <a href="">
-                            <div class="thumb"><img src="./assets/images/sc-season.jpg" alt=""></div>
-                                <em class="content-title">키미앤조이</em><span class="writer">치자</span>
-                        </a>
-                    </li>
-                    <li class="series-item">
-                        <a href="">
-                            <div class="thumb"><img src="./assets/images/sc-season.jpg" alt=""></div>
-                                <em class="content-title">키미앤조이</em><span class="writer">치자</span>
-                        </a>
-                    </li>
+                    <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-serial01.jpg" alt="99강화나무몽둥이"></div><em class="content-title">99강화나무몽둥이</em><span class="writer">홍실/지페리</span></a></li>
+                    <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-serial02.jpg" alt="취사병 전설이 되다"></div><em class="content-title">취사병 전설이 되다</em><span class="writer">제이로빈/이진수</span></a></li>
+                    <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-serial03.jpg" alt="호랑이형님"></div><em class="content-title">호랑이형님</em><span class="writer">이상규</span></a></li>
+                    <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-serial04.jpg" alt="스터디그룹"></div><em class="content-title">스터디그룹</em><span class="writer">신형욱</span></a></li>
+                    <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-serial05.jpg" alt="반드시 해피엔딩"></div><em class="content-title">반드시 해피엔딩</em><span class="writer">불사/재림/플아다</span></a></li>
+                    <li class="series-item"><a href=""><div class="thumb"><img src="./assets/images/sc-serial06.jpg" alt="아홉수 우리들"></div><em class="content-title">아홉수 우리들</em><span class="writer">수박양</span></a></li>
+                   
                 </ul>
             </section>
             <!--//// sc-serial영역 끝-->
@@ -579,6 +349,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/rank.js"></script>
     </body>
 
 </html>
